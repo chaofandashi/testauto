@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+{% for i in list %}
+    <div>{{i}}</div>
+{% endfor %}
+
+{% if name != 'hjp' %}
+    <div style="color:red">{{name}}</div>
+{% elif ppp == '' %}
+     {{ppp}}
+{% else %}
+    <div>222</div>
+{% endif %}
+</body>
+</html>
